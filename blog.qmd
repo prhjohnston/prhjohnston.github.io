@@ -1,0 +1,10 @@
+---
+title: "Writing"
+listing:
+  contents: blog
+  sort: "date desc"
+  fields: [date, title, categories]
+  type: default
+---
+
+A mixture of essays and short, for-fun research projects.

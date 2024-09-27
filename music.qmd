@@ -1,0 +1,38 @@
+---
+title: "Music"
+---
+
+<details>
+
+<summary>*Rigidly Defined Areas*</summary>
+
+*Originally composed and performed Spring 2019.*
+
+Duet for viola and cello.
+
+[Score](Rigidly%20Defined%20Areas%20Full%20Score.pdf)
+
+Recording:\
+<audio controls> <source src="RDA_recording.wav" type="audio/wav"> Your browser does not support the audio element. </audio>
+
+</details>
+
+<details>
+
+<summary>*What's in Between*</summary>
+
+*Originally composed Winter 2018-2019.*
+
+Piano, two violins, viola, cello.
+
+[Score](WIB_score.pdf)
+
+Digital mockup:
+
+<audio controls>
+
+<source src="WIB_mockup.wav" type="audio/wav">
+
+Your browser does not support the audio element. </audio>
+
+</details>
