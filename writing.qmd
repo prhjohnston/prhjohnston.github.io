@@ -1,7 +1,8 @@
 ---
 title: "Writing"
 ---
-A mixture of essays and small, for-fun research projects on topics that interest me. 
+
+A mixture of essays and small, for-fun research projects on topics that interest me.
 
 <details>
 
@@ -37,24 +38,20 @@ Each of these points warrants explanation, as well as causal weighting (i.e., ho
 
 This past summer, I watched many hours of the Euros and Copa America international soccer tournaments. Most top teams generally have managers (aka coaches) from the same country as the players (Didier Deschamps with France, Gareth Southgate with England), but not all (examples!). This got me wondering---do teams who hire coaches from another country perform better or worse than teams who hire coaches from the same country?
 
-Soccer is a highly international sport, with players coming from virtually every continent. Liverpool FC, for example, my favorite club, regularly fields starting players from Egypt, Uruguay, Colombia, Argentina, the Netherlands, Scotland, France, and England. When players move teams, they're often not just changing allegiances --- they're moving to a new country with a different language and culture. This poses a challenge from a team communication standpoint. Many foreign players take language classes, particularly in English, and some players may avoid media appearances for years, so as to not sound foolish giving an interview in their non-native tongue. 
+Soccer is a highly international sport, with players coming from virtually every continent. Liverpool FC, for example, my favorite club, regularly fields starting players from Egypt, Uruguay, Colombia, Argentina, the Netherlands, Scotland, France, and England. When players move teams, they're often not just changing allegiances --- they're moving to a new country with a different language and culture. This poses a challenge from a team communication standpoint. Many foreign players take language classes, particularly in English, and some players may avoid media appearances for years, so as to not sound foolish giving an interview in their non-native tongue.
 
-Contemporary soccer tactics are also fairly complex. Players need to know concepts such as "pressing triggers," the difference between a regular and an "inverted" fullback, the difference between a single and "double pivot," and so on. Managers attempt to stamp their tactical preferences on teams. When Arne Slot replaced Jurgen Klopp at Liverpool, the consensus was that he preferred a slightly--but not excessively--possession-based playstyle that valued quick, short passes and prioritized control in the center of the pitch rather than the wings. Again, not entirely straightforward concepts to explain even to native speakers! The communication challenge of soccer tactics is greatly exacerbated by the strictures of international football, where teams have much less time to train together, and whose rosters are composed of whoever is best in the country at a given position, leading to imbalances where some positions have a dearth of talent, or where some players prefer one playstyle, and other players prefer another. Is it easier to figure out a cohesive playstyle and get a team playing together when the coach is from the same country as the players? What about when the coach is from another country, but still natively speaks the same language? 
+Contemporary soccer tactics are also fairly complex. Players need to know concepts such as "pressing triggers," the difference between a regular and an "inverted" fullback, the difference between a single and "double pivot," and so on. Managers attempt to stamp their tactical preferences on teams. When Arne Slot replaced Jurgen Klopp at Liverpool, the consensus was that he preferred a slightly--but not excessively--possession-based playstyle that valued quick, short passes and prioritized control in the center of the pitch rather than the wings. Again, not entirely straightforward concepts to explain even to native speakers! The communication challenge of soccer tactics is greatly exacerbated by the strictures of international football, where teams have much less time to train together, and whose rosters are composed of whoever is best in the country at a given position, leading to imbalances where some positions have a dearth of talent, or where some players prefer one playstyle, and other players prefer another. Is it easier to figure out a cohesive playstyle and get a team playing together when the coach is from the same country as the players? What about when the coach is from another country, but still natively speaks the same language?
 
-surprised that no one has examined this with data 
+surprised that no one has examined this with data
 
 tested
 
-control for ranks 
+control for ranks
 
-1 month before 
+1 month before
 
-24 months before 
+24 months before
 
-conclusion 
-
-
-
-
+conclusion
 
 </details>
