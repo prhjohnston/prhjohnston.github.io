@@ -1,7 +1,7 @@
 /* css styles */
 /* Add margin to the navbar links */
 .navbar-brand {
-  margin-right: 600px; /* Adjust this value for more or less space */
+  margin-right: 700px; /* Adjust this value for more or less space */
 }
 
 main {
@@ -40,6 +40,7 @@ summary p, summary {
 .works-in-progress {
   color: #6c757d;
   font-size: 90%;
+  font-family: 'Monospace', sans-serif
 }
 
 .two-column-layout {

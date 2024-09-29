@@ -16,7 +16,7 @@ Subfields: Political Economy & Quantitative Methods.
 <div>
 I am a PhD candidate in the MIT Department of Political Science. I primarily study the American political economy, the politics of climate change, and money in politics. My dissertation work examines the politics of property and disaster insurance across the US and other industrialized countries in an era of rising climate risk.
 
-My other projects include papers examining the electoral implications of US House candidates' outside private sector positions, estimating and explaining the extent to which ethnicity shapes climate change attitudes across African countries, the implications of labor market concentration for Americans' views on the economy, and the political drivers of climate adaptation in Brazil. Before MIT, I received an AB in Politics with a certificate in Statistics and Machine Learning from Princeton University.
+My other projects include papers examining the electoral implications of US House candidates' outside private sector positions, estimating and explaining the extent to which ethnicity shapes climate change attitudes across African countries, the effects of labor market concentration on economic policy preferences in the US, and the political drivers of climate adaptation in Brazil. Before MIT, I received an AB in Politics with a certificate in Statistics and Machine Learning from Princeton University.
 
 In the [research](research.qmd) tab, you can learn more about my work. 
 
