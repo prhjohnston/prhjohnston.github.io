@@ -1,26 +1,50 @@
-::: two-column-layout
-<div>
+---
+title: "Preston R. Johnston"
+description: "PhD Candidate, MIT Political Science  Subfields: Political Economy and Quantitative Methods"
+image: temp_pic.jpg
+about:
+  template: trestles
+  image-shape: rounded
+  links:
+    - icon: github
+      text: GitHub
+      href: https://github.com/prhjohnston
+    - icon: twitter
+      text: twitter
+      href: https://x.com/prhjohnston
+    - icon: envelope-at
+      text: Email
+      href: mailto:prhj@mit.edu
+---
 
-<img src="temp_pic.jpg" alt="My Picture" width="300"/>
-
-::: {style="font-size: 80%;"}
-PhD Candidate, MIT Political Science. 
-Subfields: Political Economy & Quantitative Methods. 
-
-[twitter](https://x.com/prhjohnston) | [github](https://github.com/prhjohnston)
 
 
-:::
-</div>
 
-<div>
-I am a PhD candidate in the MIT Department of Political Science. I primarily study the American political economy, the politics of climate change, and money in politics. My dissertation work examines the politics of property and disaster insurance across the US and other industrialized countries in an era of rising climate risk.
+<!--  ::: two-column-layout -->
+<!-- <div> -->
 
-My other projects include papers examining the electoral implications of US House candidates' outside private sector positions, estimating and explaining the extent to which ethnicity shapes climate change attitudes across African countries, the effects of labor market concentration on economic policy preferences in the US, and the political drivers of climate adaptation in Brazil. Before MIT, I received an AB in Politics with a certificate in Statistics and Machine Learning from Princeton University.
+<!-- <img src="temp_pic.jpg" alt="My Picture" width="300"/> -->
+
+<!-- ::: {style="font-size: 80%;"} -->
+<!-- PhD Candidate, MIT Political Science.  -->
+<!-- Subfields: Political Economy & Quantitative Methods.  -->
+
+<!-- [twitter](https://x.com/prhjohnston) | [github](https://github.com/prhjohnston) -->
+
+
+<!-- ::: -->
+<!-- </div> -->
+
+
+I am a PhD candidate in the MIT Department of Political Science. I primarily study the American political economy, the politics of climate change, and money in politics, sometimes all at once. My dissertation work examines the politics of property and disaster insurance across the US and other industrialized countries in an era of rising climate risk.
+
+My other projects include papers studying how ethnicity structures dissensus on climate change opinion across African countries, the electoral implications of US House candidates' outside private sector positions, the effects of labor market concentration on economic policy preferences in the US, and the political drivers of climate adaptation in Brazil. 
+
+Before MIT, I received an AB in Politics with a certificate in Statistics and Machine Learning from Princeton University.
 
 In the [research](research.qmd) tab, you can learn more about my work. 
 
 <!-- In the [writing](blog.qmd) tab, I post blog-style content on a variety of topics, including essays and small, for-fun research projects. Outside of work, I also compose music, some of which you can find in the [music](music.qmd) tab. -->
 
-</div>
-:::
+
+
