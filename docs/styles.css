@@ -2,26 +2,27 @@
 /* Add margin to the navbar links */
 .navbar-brand {
   margin-right: 700px; /* Adjust this value for more or less space */
+  margin-left: 0;
 }
 
 main {
   margin-top: 42px; /* Adjust this value for more or less space */
 }
 
-body {
+/* body {
   font-family: Tahoma;
-}
+} */
 
-h2, h3 { 
+/*h2, h3 { 
   font-family: 'Monospace', sans-serif
-}
+}/*
 
 
 
-/* Apply Monospace for the navbar */
+/* Apply Monospace for the navbar 
 .navbar, .navbar a {
   font-family: 'Monospace', sans-serif
-}
+}*/
 
 
 details p, details {
@@ -29,11 +30,11 @@ details p, details {
   line-height: 1.2;     /* Adjust line spacing */
   margin-bottom: 10px;  /* Optional: Adjust margin if needed */
   margin-top: 10px;
-  font-family: 'Segoe UI', sans-serif
+  font-family: 'Segoe UI', sans-serif 
 }
 
 summary p, summary { 
-  font-family: 'Monospace', sans-serif
+  font-family: 'Monospace', sans-serif  
 }
 
 
