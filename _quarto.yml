@@ -18,7 +18,7 @@ website:
 
 format:
   html:
-    theme: lux
+    theme: flatly
     css: styles.css
     toc: false
 

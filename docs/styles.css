@@ -1,12 +1,6 @@
-/* css styles */
-/* Add margin to the navbar links */
-.navbar-brand {
-  margin-right: 900px; /* Adjust this value for more or less space */
-  margin-left: 0;
-}
 
-main {
-  margin-top: 42px; /* Adjust this value for more or less space */
+.navbar-brand {
+  margin-right: 1500px;
 }
 
 /* body {
