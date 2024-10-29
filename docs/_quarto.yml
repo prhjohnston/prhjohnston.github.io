@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Preston R. Johnston"
+  navbar:
+    left:
+      - href: index.qmd
+        text: about
+      - href: research.qmd
+        text: research
+      - href: cv.qmd 
+        text: cv
+  search: false
+  favicon: MIT_logo.jpeg
+      
+
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: false
+
+editor: visual
+
