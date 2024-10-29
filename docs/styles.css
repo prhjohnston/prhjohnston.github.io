@@ -14,31 +14,23 @@
   font-family: 'Monospace', sans-serif
 }*/
 
-
-details p, details {
-  font-size: 90%;       /* Adjust font size */
-  line-height: 1.2;     /* Adjust line spacing */
-  margin-bottom: 10px;  /* Optional: Adjust margin if needed */
-  margin-top: 10px;
-  font-family: 'Segoe UI', sans-serif 
+details summary {
+  color: inherit !important;
 }
 
-summary p, summary { 
+
+/*.details { 
   font-family: 'Monospace', sans-serif  
-}
+  color: black;
+}*/
 
 
-.works-in-progress {
-  color: #6c757d;
+/*.works-in-progress {
+  color: black;
   font-size: 90%;
   font-family: 'Monospace', sans-serif
 }
-
-.two-column-layout {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  gap: 40px;  /* Increase the gap between columns */
-}
+*/
 
 img {
   max-width: 100%;
