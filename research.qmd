@@ -12,7 +12,7 @@ title: "Research"
 
 <details>
 
-<summary>**Ethnicity, Regionalism, and Attitudes about Climate Change in Africa** *(with Devin Caughey and Evan Lieberman)*</summary>
+<summary>**Ethnicity and Climate Dissensus in Africa** *(with Devin Caughey and Evan Lieberman)*</summary>
 
 African countries have already suffered some of the worst effects of climate change, but attitudes on the continent vary widely on this issue. Motivated by the extensive literature on the central role of ethnicity in African politics, we examine the degree to which dissensus regarding climate change is structured by ethnic divisions. We fit multilevel models of climate-related Afrobarometer survey items in 29 countries, operationalizing ethnic dissensus as the intraclass correlation coefficient of ethnic affiliation. We find substantial ethnic dissensus in many but not all countries. We then consider two classes of explanations for ethnic dissensus: (1) intergroup inequality in resources such as wealth and political power and (2) differences in ethnic groups' geographic distributions. Across a variety of analyses, we find evidence that ethnic dissensus is rooted primarily in geography, specifically groups' concentration in different regions. By contrast, we find little evidence that non-geographic group attributes explain ethnic differences in climate attitudes. Nevertheless, ethnicity's centrality to the politics of many African countries means that ethnic dissensus, whatever its source, may present a potent barrier to collective action on climate change. *(Draft available upon request)*
 
@@ -32,6 +32,6 @@ Does actively holding an outside private sector position benefit the political c
 
 **Ideology and Individual-level Climate Adaptation in Brazil** *(with Clemente T. Sanchez)*
 
-**Company Towns? Labor Market Concentration, Antitrust Opinion, and Political Behavior.** *(with Alejandro Frydman, Joseph Loffredo, and Gabrielle Peloquin-Skulski)*
+<!-- **Company Towns? Labor Market Concentration, Antitrust Opinion, and Political Behavior.** *(with Alejandro Frydman, Joseph Loffredo, and Gabrielle Peloquin-Skulski)*
 
 **Regime Type and Green Growth**
