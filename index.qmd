@@ -39,7 +39,7 @@ I am a PhD candidate in the MIT Department of Political Science. My work uses su
 
 Other research interests include market concentration and money in politics in the US, and how political and social identities shape risk tolerance and policy preferences.
 
-In addition to my dissertation, I am working on projects studying how ethnicity structures dissensus on climate change opinion across African countries, the electoral implications of US House candidates' outside private sector positions, the effects of labor market concentration on economic policy preferences in the US, and the political drivers of climate adaptation in Brazil.
+In addition to my dissertation, I am working on projects studying how ethnicity structures dissensus on climate change opinion across African countries, the electoral implications of US House candidates' outside private sector positions, and the political drivers of climate adaptation in Brazil.
 
 Before MIT, I received an AB in Politics with a certificate in Statistics and Machine Learning from Princeton University.
 
