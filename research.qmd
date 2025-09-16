@@ -12,9 +12,9 @@ title: "Research"
 
 <details>
 
-<summary>**Ethnicity and Climate Dissensus in Africa** *(with Devin Caughey and Evan Lieberman)*</summary>
+<summary>**Ethnicity and Climate Dissensus in Africa** *(with [Devin Caughey](https://devincaughey.github.io/) and [Evan Lieberman](https://evanlieb.mit.edu/))*</summary>
 
-African countries have already suffered some of the worst effects of climate change, but attitudes on the continent vary widely on this issue. Motivated by the extensive literature on the central role of ethnicity in African politics, we examine the degree to which dissensus regarding climate change is structured by ethnic divisions. We fit multilevel models of climate-related Afrobarometer survey items in 29 countries, operationalizing ethnic dissensus as the intraclass correlation coefficient of ethnic affiliation. We find substantial ethnic dissensus in many but not all countries. We then consider two classes of explanations for ethnic dissensus: (1) intergroup inequality in resources such as wealth and political power and (2) differences in ethnic groups' geographic distributions. Across a variety of analyses, we find evidence that ethnic dissensus is rooted primarily in geography, specifically groups' concentration in different regions. By contrast, we find little evidence that non-geographic group attributes explain ethnic differences in climate attitudes. Nevertheless, ethnicity's centrality to the politics of many African countries means that ethnic dissensus, whatever its source, may present a potent barrier to collective action on climate change. *(Draft available upon request)*
+The African continent has already experienced severe climate impacts, yet public attitudes toward climate change vary widely within and across countries. Drawing on Afrobarometer surveys from 29 countries, we test whether opinions are divided along ethnic lines. We find evidence of ethnic dissensus in nearly every country, strongest in perceptions of climate hazards but also present in views on policy responses. Using Bayesian multilevel models, we assess three explanations: individual composition of groups, group-level attributes, and geographic context. We find the strongest evidence for the third explanation, specifically that dissensus is greatest where ethnic groups are more regionally segregated. Additionally, wealthier groups tend to be more aware of climate issues yet less concerned about action, though inequality itself does not predict dissensus. These findings underscore the links between ethnicity, regionalism, and climate politics, contributing to research on ethnic politics, public goods provision, and the emerging field of climate-related attitudes. *(Draft available upon request)*
 
 </details>
 
@@ -30,9 +30,11 @@ Does actively holding an outside private sector position benefit the political c
 
 #### Works in progress
 
-**Pulling the Fire Alarm? Insurer Fossil Investment and Climate Policy Support** 
+**Pulling the Fire Alarm? Insurer corporate political behavior on climate change** 
 
 **Ideology and Individual-level Climate Adaptation in Brazil** *(with Clemente T. Sanchez)*
+
+**Premium Politics: Home insurance, electoral accountability, and climate adaptation**
 
 
 
