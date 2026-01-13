@@ -1,6 +1,12 @@
 ---
 title: "Preston R. Johnston"
-description: "PhD Candidate, MIT Political Science  Subfields: Political Economy and Quantitative Methods"
+description: |
+  PhD Candidate \ 
+  MIT Political Science  \ 
+  Subfields: [Political Economy](https://polisci.mit.edu/files/ps/imce/graduate/forms/Political%20Economy%20at%20MIT%20Updated%20Feb%2024%202025.pdf) and \ 
+  [Quantitative Methods](https://polisci.mit.edu/graduate/fields#models)  \ 
+  \ 
+  *Photo credit to the Minda de Gunzburg Center for European Studies at Harvard University*
 image: ces_headshot_noglasses.jpg
 about:
   template: trestles
@@ -37,6 +43,7 @@ I am a PhD candidate in the MIT Department of Political Science. My research use
 I am a graduate student [affiliate](https://ces.fas.harvard.edu/people/preston-r-johnston) of the Minda de Gunzberg Center for European Studies at Harvard. Together with [Clemente T. Sanchez](https://www.clementesanchez.com/), I run the [Comparative Politics and Political Economy](https://cis.mit.edu/current-working-groups) (COPE) graduate student seminar at MIT.
 
 Before graduate school, I received an undergraduate degree in Politics with a certificate in Statistics and Machine Learning from Princeton University. You can find my CV [here.](Preston_Johnston_CV.pdf)
+
 
 ```{=html}
 <!--In the [writing](blog.qmd) tab, I post blog-style content on a variety of topics, including essays and small, for-fun research projects.

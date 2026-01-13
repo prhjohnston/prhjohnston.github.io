@@ -56,22 +56,31 @@ details {
 
 /* Force the photo smaller */
 .quarto-about-trestles .about-entity img {
-  max-width: 180px !important;
-  width: 180px !important;
+  max-width: 220px !important;
+  width: 220px !important;
 }
 
-/* Force the left column narrower */
+/* Force the left column wider to fit name */
 .quarto-about-trestles .about-entity {
-  width: 200px !important;
-  min-width: 200px !important;
-  max-width: 200px !important;
+  width: 350px !important;
+  min-width: 350px !important;
+  max-width: 350px !important;
 }
 
-/* Force the right column wider */
+/* Adjust the right column */
 .quarto-about-trestles .about-contents {
-  width: calc(100% - 230px) !important;
-  max-width: calc(100% - 230px) !important;
+  width: calc(100% - 380px) !important;
+  max-width: calc(100% - 380px) !important;
   flex-grow: 1 !important;
+}
+
+/* Style for photo caption */
+.photo-caption {
+  font-size: 0.75em;
+  font-style: italic;
+  color: #666;
+  text-align: center;
+  margin-top: 0.5em;
 }
 
 /* Make sure the page container is wide enough */
