@@ -63,7 +63,7 @@ This paper studies the electoral implications of the unfolding climate-change-dr
 
 <details>
 
-<summary>**Ethnicity and Climate Dissensus in Africa** *(with [Devin Caughey](https://devincaughey.github.io/) and [Evan Lieberman](https://evanlieb.mit.edu/))*</summary>
+<summary>**Ethnicity and climate dissensus in Africa** *(with [Devin Caughey](https://devincaughey.github.io/) and [Evan Lieberman](https://evanlieb.mit.edu/))*</summary>
 
 The African continent has already experienced severe climate impacts, yet public attitudes toward climate change vary widely within and across countries. Drawing on Afrobarometer surveys from 29 countries, we test whether opinions are divided along ethnic lines. We find evidence of ethnic dissensus in nearly every country, strongest in perceptions of climate hazards but also present in views on policy responses. Using Bayesian multilevel models, we assess three explanations: individual composition of groups, group-level attributes, and geographic context. We find the strongest evidence for the third explanation, specifically that dissensus is greatest where ethnic groups are more regionally segregated. Additionally, wealthier groups tend to be more aware of climate issues yet less concerned about action, though inequality itself does not predict dissensus. These findings underscore the links between ethnicity, regionalism, and climate politics, contributing to research on ethnic politics, public goods provision, and the emerging field of climate-related attitudes. *(Draft available upon request)*
 
@@ -71,7 +71,7 @@ The African continent has already experienced severe climate impacts, yet public
 
 <details>
 
-<summary>**Can You Stand the Heat? Ideology and Individual-level Climate Adaptation in Brazil** *(with [Clemente T. Sanchez](https://www.clementesanchez.com/))*</summary>
+<summary>**Can You Stand the Heat? Ideology and individual-level climate adaptation in Brazil** *(with [Clemente T. Sanchez](https://www.clementesanchez.com/))*</summary>
 
 How do people adapt to climate change? Although individuals have incentives to change their lifestyles and economic choices to reduce their exposure to climate risks, decades of research have also shown that risk perceptions and tolerance are shaped by social and political factors. We propose that just as politics may affect whether individuals develop concern for climate change, it may also affect the adaptive actions individuals take in response to climate trends. Studying the case of Brazil, a country which faces severe climate risks, we focus on one channel through which party politics may affect individual climate adaptation: differential risk tolerance. Leveraging a large representative survey of Brazilian households in conjunction with a novel survey experiment, we examine whether respondents living in conservative areas show lower elasticities of self-reported adaptation to climate risks such as drought, floods, temperature anomalies, and fires. If so, this may indicate that political ideology can moderate the relationship between risk and adaptation, possibly contributing to adaptation shortfalls in the developing world.
 
