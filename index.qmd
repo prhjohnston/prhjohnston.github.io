@@ -7,7 +7,7 @@ description: |
   [Quantitative Methods](https://polisci.mit.edu/graduate/fields#models)  \ 
   \ 
   *Photo credit to the Minda de Gunzburg Center for European Studies at Harvard University*
-image: ces_headshot_noglasses.jpg
+image: ces_headshot_noglasses Medium.jpeg
 about:
   template: trestles
   image-shape: rounded
