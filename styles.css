@@ -88,3 +88,35 @@ details {
   margin-left: auto !important;
   margin-right: auto !important;
 }
+
+/* Mobile responsive layout */
+@media screen and (max-width: 768px) {
+  .quarto-about-trestles {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+  
+  .quarto-about-trestles .about-entity {
+    width: 100% !important;
+    max-width: 100% !important;
+    min-width: unset !important;
+    text-align: center !important;
+  }
+  
+  .quarto-about-trestles .about-entity img {
+    max-width: 200px !important;
+    width: 200px !important;
+    margin: 0 auto !important;
+  }
+  
+  .quarto-about-trestles .about-contents {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+  
+  #quarto-content {
+    width: 100% !important;
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
