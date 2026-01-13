@@ -1,7 +1,7 @@
 ---
 title: "Preston R. Johnston"
 description: "PhD Candidate, MIT Political Science  Subfields: Political Economy and Quantitative Methods"
-image: NYC_image.jpeg
+image: ces_headshot_noglasses.jpg
 about:
   template: trestles
   image-shape: rounded
@@ -32,18 +32,48 @@ about:
 
 <!-- </div> -->
 
-I am a PhD candidate in the MIT Department of Political Science. My research uses survey, spatial, and firm-level data to study how individuals, companies, and governments adapt to climate change. My dissertation project examines the politics of property and disaster insurance in the US and other advanced democracies in an era of rising climate risk.
+I am a PhD candidate in the MIT Department of Political Science. My research uses survey, spatial, and firm-level data to study how societies adapt to climate change. My dissertation project examines the politics of property and disaster insurance in the US and other advanced democracies in an era of rising climate risk. Other research interests include the [American Political Economy](https://www.americanpoliticaleconomy.org/), especially money in politics, and comparative political behavior.
 
-Other research interests include the American Political Economy, especially money in politics, and comparative political behavior. 
+I am a graduate student [affiliate](https://ces.fas.harvard.edu/people/preston-r-johnston) of the Minda de Gunzberg Center for European Studies at Harvard. Together with [Clemente T. Sanchez](https://www.clementesanchez.com/), I run the [Comparative Politics and Political Economy](https://cis.mit.edu/current-working-groups) (COPE) graduate student seminar at MIT.
 
-Together with [Clemente T. Sanchez](https://www.clementesanchez.com/), I run the [Comparative Politics and Political Economy](https://cis.mit.edu/current-working-groups) (COPE) graduate student seminar at MIT.  
-
-I am a graduate student [affiliate](https://ces.fas.harvard.edu/people/preston-r-johnston) of the Minda de Gunzberg Center for European Studies at Harvard. Before graduate school, I received an undergraduate degree in Politics with a certificate in Statistics and Machine Learning from Princeton University.
-
-In the [research](research.qmd) tab, you can learn more about my work.
+Before graduate school, I received an undergraduate degree in Politics with a certificate in Statistics and Machine Learning from Princeton University. You can find my CV [here.](Preston_Johnston_CV.pdf)
 
 ```{=html}
 <!--In the [writing](blog.qmd) tab, I post blog-style content on a variety of topics, including essays and small, for-fun research projects.
  
  <!--Outside of work, I also compose music, some of which you can find in the [music](music.qmd) tab. -->
 ```
+
+#### Research in progress
+
+<details>
+
+<summary>**Voters Uncovered: Home insurance availability, electoral accountability, and climate adaptation**</summary>
+
+This paper studies the electoral implications of the unfolding climate-change-driven home insurance crisis in the United States. In recent years, home insurance prices have risen significantly faster than inflation and the non-renewal rate, a measure of coverage unavailability, has more than doubled. Drawing on county-level panel data on election returns and home insurance non-renewal rates, I use a difference-in-differences framework to examine whether declines in home insurance availability caused anti-incumbent voting in gubernatorial and insurance commissioner elections in the period 2017-2024. I find that declining coverage availability results in an electoral penalty for Democratic governors, with more ambiguous effects on insurance commissioner elections. Given the potential political costs to coverage declines, I then turn to an analysis of whether voters reward incumbents for policies designed to reduce non-renewals. In particular, I study a recent California policy that places a one-year moratorium on coverage non-renewals in the wake of wildfires. I find that coverage non-renewal moratoria that expire prior to the 2022 election reduce incumbent voteshare. This finding is explained by the fact that insurers immediately increase premiums following moratorium issuance and accelerate coverage withdrawals following moratorium expiry. The results highlight the dilemmas facing governments dependent on the private insurance industry to protect homeowners against rising climate risk. As climate change worsens, electoral politics may create incentives to mitigate the passthrough of climate risk to households.
+
+</details>
+
+<details>
+
+<summary>**Ethnicity and Climate Dissensus in Africa** *(with [Devin Caughey](https://devincaughey.github.io/) and [Evan Lieberman](https://evanlieb.mit.edu/))*</summary>
+
+The African continent has already experienced severe climate impacts, yet public attitudes toward climate change vary widely within and across countries. Drawing on Afrobarometer surveys from 29 countries, we test whether opinions are divided along ethnic lines. We find evidence of ethnic dissensus in nearly every country, strongest in perceptions of climate hazards but also present in views on policy responses. Using Bayesian multilevel models, we assess three explanations: individual composition of groups, group-level attributes, and geographic context. We find the strongest evidence for the third explanation, specifically that dissensus is greatest where ethnic groups are more regionally segregated. Additionally, wealthier groups tend to be more aware of climate issues yet less concerned about action, though inequality itself does not predict dissensus. These findings underscore the links between ethnicity, regionalism, and climate politics, contributing to research on ethnic politics, public goods provision, and the emerging field of climate-related attitudes. *(Draft available upon request)*
+
+</details>
+
+<details>
+
+<summary>**Can You Stand the Heat? Ideology and Individual-level Climate Adaptation in Brazil** *(with [Clemente T. Sanchez](https://www.clementesanchez.com/))*</summary>
+
+How do people adapt to climate change? Although individuals have incentives to change their lifestyles and economic choices to reduce their exposure to climate risks, decades of research have also shown that risk perceptions and tolerance are shaped by social and political factors. We propose that just as politics may affect whether individuals develop concern for climate change, it may also affect the adaptive actions individuals take in response to climate trends. Studying the case of Brazil, a country which faces severe climate risks, we focus on one channel through which party politics may affect individual climate adaptation: differential risk tolerance. Leveraging a large representative survey of Brazilian households in conjunction with a novel survey experiment, we examine whether respondents living in conservative areas show lower elasticities of self-reported adaptation to climate risks such as drought, floods, temperature anomalies, and fires. If so, this may indicate that political ideology can moderate the relationship between risk and adaptation, possibly contributing to adaptation shortfalls in the developing world.
+
+</details>
+
+<details>
+
+<summary>**Pulling the Fire Alarm? Insurer corporate political behavior on climate change**</summary>
+
+How do firms cross-pressured between energy transition risk and physical climate risk engage with climate politics? I hypothesize that cross-pressured firms will support climate adaptation policy as a way of simultaneously reducing physical risk exposure without jeopardizing their carbon-intensive assets. Focusing on a most-likely case for the hypothesis, I examine one of the largest industries financially affected by rising climate risk: US property insurers. Large underwriting losses from climate shocks threaten industry profits and invite state intervention, seemingly creating large incentives to support decarbonization. Simultaneously, insurers are institutional investors in the carbon-intensive status quo, which confers transition risk. Linking a panel of insurer characteristics and security-level investment data with information on their lobbying and campaign contributions, I study how investments in fossil fuels (a measure of transition risk) and loss ratios on catastrophe-relevant underwriting (physical risk) affect insurer political behavior. Descriptively, insurers began lobbying on climate-related topics and realigned to support Democratic candidates after the 2017 climate-driven hardening to reinsurance markets. As predicted, most of the recent expansion of climate-relevant lobbying is on adaptation topics, rather than mitigation. Cross-sectionally, insurers' exposure to catastrophe-relevant underwriting and fossil investments are associated with more and less climate-friendly political behavior, respectively. The findings aim to contribute to growing literatures on insurance politics under climate change, firms' responses to climate risk, and the politics of adaptation.
+
+</details>

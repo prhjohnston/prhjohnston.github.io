@@ -8,10 +8,6 @@ website:
     right:
       - href: index.qmd
         text: about
-      - href: research.qmd
-        text: research
-      - href: cv.qmd 
-        text: cv
   search: false
   favicon: MIT_logo.jpeg
       
