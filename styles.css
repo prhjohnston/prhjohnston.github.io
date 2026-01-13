@@ -69,9 +69,15 @@ details {
 
 /* Adjust the right column */
 .quarto-about-trestles .about-contents {
-  width: calc(100% - 380px) !important;
-  max-width: calc(100% - 380px) !important;
+  min-width: 550px !important;
   flex-grow: 1 !important;
+}
+
+/* Make the main content area expand */
+.about-contents main.content,
+.about-contents #quarto-document-content {
+  max-width: 100% !important;
+  width: 100% !important;
 }
 
 /* Style for photo caption */
@@ -85,8 +91,8 @@ details {
 
 /* Make sure the page container is wide enough */
 #quarto-content {
-  max-width: 1100px !important;
-  width: 95% !important;
+  max-width: 1400px !important;
+  width: 98% !important;
   margin-left: auto !important;
   margin-right: auto !important;
 }
@@ -96,6 +102,8 @@ details {
   justify-content: center !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  max-width: 100% !important;
+  width: 100% !important;
 }
 
 /* Mobile responsive layout */
