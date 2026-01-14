@@ -129,10 +129,19 @@ details {
   .quarto-about-trestles .about-contents {
     width: 100% !important;
     max-width: 100% !important;
+    min-width: unset !important;
+  }
+  
+  .about-contents main.content,
+  .about-contents #quarto-document-content {
+    max-width: 100% !important;
+    width: 100% !important;
+    min-width: unset !important;
   }
   
   #quarto-content {
     width: 100% !important;
+    max-width: 100% !important;
     padding-left: 15px !important;
     padding-right: 15px !important;
   }
