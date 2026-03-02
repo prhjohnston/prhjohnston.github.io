@@ -38,7 +38,7 @@ about:
 
 <!-- </div> -->
 
-I am a PhD candidate in the MIT Department of Political Science. My research uses survey, spatial, and firm-level data to study how societies adapt to climate change. My dissertation project examines the politics of property insurance in the US and other advanced democracies in an era of rising climate risk. Other research interests include the [American Political Economy](https://www.americanpoliticaleconomy.org/), especially money in politics, and comparative political behavior.
+I am a PhD candidate in the MIT Department of Political Science. My research studies the political consequences of rising climate risk in the United States and other contexts. I'm especially interested in the causes and effects of climate adaptation policies. I draw on spatial, survey, and firm-level data in conjunction with tools from political economy and causal inference to assess adaptation policy effectiveness, political support, and distributive implications, with a focus on property insurance regulation. Other research interests include the [American Political Economy](https://www.americanpoliticaleconomy.org/), especially money in politics, and comparative political behavior.
 
 I am a graduate student [affiliate](https://ces.fas.harvard.edu/people/preston-r-johnston) of the Minda de Gunzberg Center for European Studies at Harvard. Together with [Clemente T. Sanchez](https://www.clementesanchez.com/), I run the [Comparative Politics and Political Economy](https://cis.mit.edu/current-working-groups) (COPE) graduate student seminar at MIT.
 
