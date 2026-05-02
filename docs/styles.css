@@ -120,6 +120,18 @@ h2::before {
   padding: 0.8rem 1.6rem !important;
   box-shadow: none !important;
 }
+.navbar .navbar-toggler,
+.navbar #navbarCollapse,
+.navbar .quarto-navbar-tools {
+  display: none !important;
+}
+.navbar .navbar-container {
+  justify-content: center !important;
+}
+.navbar .navbar-brand-container {
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 .navbar .navbar-brand,
 .navbar .navbar-title,
 .navbar-brand .navbar-title {
@@ -450,8 +462,12 @@ h2::before {
 }
 .about-contents > details > summary,
 .about-contents #quarto-document-content > details > summary {
-  list-style: none;
+  list-style: none !important;
+  list-style-type: none !important;
+  -webkit-appearance: none;
+  appearance: none;
   cursor: pointer;
+  display: block;
   font-family: var(--serif);
   font-size: 1rem;
   font-weight: 500;
@@ -462,7 +478,12 @@ h2::before {
 }
 .about-contents > details > summary::-webkit-details-marker,
 .about-contents #quarto-document-content > details > summary::-webkit-details-marker {
-  display: none;
+  display: none !important;
+}
+.about-contents > details > summary::marker,
+.about-contents #quarto-document-content > details > summary::marker {
+  content: "" !important;
+  font-size: 0;
 }
 .about-contents > details > summary::after,
 .about-contents #quarto-document-content > details > summary::after {
@@ -495,6 +516,62 @@ h2::before {
 }
 .about-contents > details > summary strong,
 .about-contents #quarto-document-content > details > summary strong {
+  font-weight: 500;
+}
+
+/* Rendered teaching details live inside section#teaching */
+.about-contents #teaching > details {
+  max-width: 38rem;
+  margin: 0;
+  border-bottom: 1px solid var(--rule);
+}
+.about-contents #teaching > details > summary {
+  list-style: none !important;
+  list-style-type: none !important;
+  -webkit-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  display: block;
+  font-family: var(--serif);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--ink);
+  padding: 0.85rem 2rem 0.85rem 0;
+  position: relative;
+}
+.about-contents #teaching > details > summary::-webkit-details-marker {
+  display: none !important;
+}
+.about-contents #teaching > details > summary::marker {
+  content: "" !important;
+  font-size: 0;
+}
+.about-contents #teaching > details > summary::after {
+  content: "+";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--sans);
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: var(--ink-subtle);
+  transition: color 180ms ease;
+}
+.about-contents #teaching > details[open] > summary::after {
+  content: "-";
+  color: var(--accent);
+}
+.about-contents #teaching > details > .body {
+  font-size: 0.93rem;
+  color: var(--ink-muted);
+  padding: 0 0 1rem;
+  margin: 0;
+}
+.about-contents #teaching > details > .body p {
+  margin: 0;
+}
+.about-contents #teaching > details > summary strong {
   font-weight: 500;
 }
 
