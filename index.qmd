@@ -1,13 +1,13 @@
 ---
 title: "Preston R. Johnston"
 description: |
-  PhD Candidate \ 
-  MIT Political Science  \ 
-  Subfields: [Political Economy](https://polisci.mit.edu/files/ps/imce/graduate/forms/Political%20Economy%20at%20MIT%20Updated%20Feb%2024%202025.pdf) and \ 
-  [Quantitative Methods](https://polisci.mit.edu/graduate/fields#models)  \ 
-  \ 
+  PhD Candidate \
+  MIT Political Science  \
+  Subfields: [Political Economy](https://polisci.mit.edu/files/ps/imce/graduate/forms/Political%20Economy%20at%20MIT%20Updated%20Feb%2024%202025.pdf){target="_blank" rel="noopener"} and \
+  [Quantitative Methods](https://polisci.mit.edu/graduate/fields#models){target="_blank" rel="noopener"}  \
+  \
   *Photo credit to the Minda de Gunzburg Center for European Studies at Harvard University*
-image: ces_headshot_noglasses Medium.jpeg
+image: Johnson_Preston_290A6905 copy Medium.jpeg
 about:
   template: trestles
   image-shape: rounded
@@ -20,88 +20,111 @@ about:
       href: https://x.com/prhjohnston
 ---
 
-<!--  ::: two-column-layout -->
+I am a PhD candidate in the MIT Department of Political Science. My research agenda studies the consequences of rising climate risk for democratic politics, with a particular interest in how climate costs are spread across space and social groups. Methodologically, my projects often combine spatial climate data with causal inference tools to study how climate risk affects outcomes including policymaking, political behavior, and interest group politics. I'm also interested in what makes climate adaptation efforts politically durable and resilient to backlash.
 
-<!-- <div> -->
+My dissertation examines one of the most important impacts of climate risk in wealthy countries: disrupted property insurance markets. My regional focus is the [American Political Economy](https://www.americanpoliticaleconomy.org/), but I am also working on projects studying other regions.
 
-<!-- <img src="temp_pic.jpg" alt="My Picture" width="300"/> -->
-
-<!-- ::: {style="font-size: 80%;"} -->
-
-<!-- PhD Candidate, MIT Political Science.  -->
-
-<!-- Subfields: Political Economy & Quantitative Methods.  -->
-
-<!-- [twitter](https://x.com/prhjohnston) | [github](https://github.com/prhjohnston) -->
-
-<!-- ::: -->
-
-<!-- </div> -->
-
-I am a PhD candidate in the MIT Department of Political Science. My research studies the political consequences of rising climate risk in the United States and other contexts. I'm especially interested in the causes and effects of climate adaptation policies. I draw on spatial, survey, and firm-level data in conjunction with tools from political economy and causal inference to assess adaptation policy effectiveness, political support, and distributive implications, with a focus on property insurance regulation. Other research interests include the [American Political Economy](https://www.americanpoliticaleconomy.org/), especially money in politics, and comparative political behavior.
-
-I am a graduate student [affiliate](https://ces.fas.harvard.edu/people/preston-r-johnston) of the Minda de Gunzberg Center for European Studies at Harvard. Together with [Clemente T. Sanchez](https://www.clementesanchez.com/), I run the [Comparative Politics and Political Economy](https://cis.mit.edu/current-working-groups) (COPE) graduate student seminar at MIT.
+I am a graduate student [affiliate](https://ces.fas.harvard.edu/people/preston-r-johnston) of the Minda de Gunzberg Center for European Studies at Harvard. Together with [Clemente T. Sanchez](https://www.clementesanchez.com/){target="_blank" rel="noopener"}, I also run the [Comparative Politics and Political Economy](https://cis.mit.edu/current-working-groups) (COPE) graduate student seminar at MIT.
 
 Before graduate school, I received an undergraduate degree in Politics with a certificate in Statistics and Machine Learning from Princeton University. You can find my CV [here.](Preston_Johnston_CV.pdf)
 
 
-```{=html}
-<!--In the [writing](blog.qmd) tab, I post blog-style content on a variety of topics, including essays and small, for-fun research projects.
- 
- <!--Outside of work, I also compose music, some of which you can find in the [music](music.qmd) tab. -->
-```
+## Working papers
 
-#### Research in progress
+**Resisting Segmentation: Climate risk and the politics of insurance**
+
+::: {.paper-actions}
+<details>
+<summary> Abstract </summary>
+::: {.body}
+Rising climate risk in the United States has destabilized property insurance markets. The resulting disruption has prompted policymakers to consider reforms to insurance institutions that partially determine whether the costs of climate change are borne individually or spread collectively. Drawing on the literature on risk and social policy, I identify two directions in which insurance systems can be reformed: towards greater segmentation (i.e., individualized, risk-reflective pricing) or more risk-pooling. Against perspectives that view segmentation as inevitable, I argue that high-risk citizens are likely to demand risk-pooling, and that politicians representing at-risk districts have incentives to support pooling reforms. I present survey evidence that US homeowners with higher climate risk are more likely to support risk-pooling. I then use an LLM-based strategy to classify approximately 1927 insurance-related bills introduced in US state legislatures since 2016. In both cross-sectional and difference-in-differences designs, I find evidence consistent with my expectations: legislators representing high-risk districts are significantly more likely to sponsor pro-pooling legislation. However, I also present evidence that states where higher-wealth homeowners stand to benefit from pooling have been more likely to enact pooling reforms. Process tracing of insurance politics in Florida reveals that pooling of insurance risk that falls on wealthy homeowners can result in what I call 'regressive socialization.' The findings contribute to the literatures on climate adaptation and political responses to social risks.
+:::
+</details>
 
 <details>
+<summary> Draft </summary>
+::: {.body}
+[Available here](https://www.dropbox.com/scl/fi/yzkoysikw6zrcuwiapz5w/johnston_resisting_segmentation_draft.pdf?rlkey=c3cc6312imqfn1kfinj6aq9k0&st=toi2vx0k&dl=0){target="_blank" rel="noopener"}
+:::
+</details>
+:::
 
-<summary>**Voters Uncovered: Home insurance availability, electoral accountability, and climate adaptation**</summary>
 
+**Ethnicity and Climate Attitudes in Africa** [*(with [Devin Caughey](https://devincaughey.github.io/){target="_blank" rel="noopener"} and [Evan Lieberman](https://evanlieb.mit.edu/){target="_blank" rel="noopener"})*]{.coauthors}
+
+::: {.paper-actions}
+<details>
+<summary> Abstract </summary>
+::: {.body}
+The African continent has already experienced severe climate impacts, yet public attitudes toward climate change vary widely within and across countries. Despite the well-established importance of ethnic politics in many African countries, we know little about the role ethnicity plays in structuring attitudes on this critical problem. Drawing on Afrobarometer surveys from 29 countries, we test whether opinions are divided along ethnic lines. We find evidence of ethnic-based cleavages in nearly every country, strongest in perceptions of climate hazards but also present in views on policy responses. We use a mix of analytic approaches, including Bayesian multilevel models, to estimate the prevalence of such "ethnic dissensus" across countries and issue areas, and in comparison with several non-climate outcomes. We find that dissensus is greatest in countries where ethnic groups are more segregated across ecological zones. By contrast, wealth inequality between groups is not a strong predictor of dissensus. These findings underscore the links between ethnicity, regionalism, and climate politics, contributing to research on ethnic politics, public goods provision, and climate-related attitudes.
+:::
+</details>
+
+<details>
+<summary> Draft </summary>
+::: {.body}
+[Available here](https://www.dropbox.com/scl/fi/z4i0s2085l2qye3liekn0/caughey_johnston_lieberman_dissensus.pdf?rlkey=x4utq7p3jvdbrxz3r59ic64mz&st=agrcwn9h&dl=0){target="_blank" rel="noopener"}
+:::
+</details>
+:::
+
+**Voters Uncovered: Home insurance availability, electoral accountability, and climate adaptation**
+
+::: {.paper-actions}
+<details>
+<summary> Abstract </summary>
+::: {.body}
 This paper studies the electoral implications of the unfolding climate-change-driven home insurance crisis in the United States. In recent years, home insurance prices have risen significantly faster than inflation and the non-renewal rate, a measure of coverage unavailability, has more than doubled. Drawing on county-level panel data on election returns and home insurance non-renewal rates, I use a difference-in-differences framework to examine whether declines in home insurance availability caused anti-incumbent voting in gubernatorial and insurance commissioner elections in the period 2017-2024. I find that declining coverage availability results in an electoral penalty for Democratic governors, with more ambiguous effects on insurance commissioner elections. Given the potential political costs to coverage declines, I then turn to an analysis of whether voters reward incumbents for policies designed to reduce non-renewals. In particular, I study a recent California policy that places a one-year moratorium on coverage non-renewals in the wake of wildfires. I find that coverage non-renewal moratoria that expire prior to the 2022 election reduce incumbent voteshare. This finding is explained by the fact that insurers immediately increase premiums following moratorium issuance and accelerate coverage withdrawals following moratorium expiry. The results highlight the dilemmas facing governments dependent on the private insurance industry to protect homeowners against rising climate risk. As climate change worsens, electoral politics may create incentives to mitigate the passthrough of climate risk to households.
+:::
+</details>
+:::
 
+
+## Work in progress
+
+**Swimming in the Flood? Ideology and individual-level climate adaptation** [*(with [Clemente T. Sanchez](https://www.clementesanchez.com/){target="_blank" rel="noopener"})*]{.coauthors}
+
+::: {.paper-actions}
+<details>
+<summary> Abstract </summary>
+::: {.body}
+How do people adapt to climate change? Although individuals have incentives to reduce their exposure to climate risks, research has shown that risk perceptions and tolerance are socially constructed. We propose that political attitudes may affect the adaptive actions individuals take in response to climate risk. Studying the case of Brazil, a country that faces severe climate impacts, we combine experimental and observational data to examine whether ideology explains variation in adaptation behaviors and whether it moderates responses to risk exposure. First, we field a pilot survey experiment on participants sampled from flood-exposed municipalities, in which we administer an informational treatment revealing respondents' local flood risk level. We measure how exposure to risk information alters stated and revealed adaptation behaviors, as well as support for adaptation-relevant public policies. Second, we leverage a large, government-administered survey of Brazilian rural households. Using this data, we develop a novel typology of self-reported behavioral responses to climate change. We then examine whether respondents in areas with more right-wing electoral preferences self-report different adaptation behaviors and whether they exhibit lower elasticities of such behaviors to climate risks such as droughts, floods, and landslides. We present pilot findings and discuss design considerations for a larger, pre-registered follow-up survey.
+:::
 </details>
 
 <details>
-
-<summary>**Ethnicity and climate dissensus in Africa** *(with [Devin Caughey](https://devincaughey.github.io/) and [Evan Lieberman](https://evanlieb.mit.edu/))*</summary>
-
-The African continent has already experienced severe climate impacts, yet public attitudes toward climate change vary widely within and across countries. Drawing on Afrobarometer surveys from 29 countries, we test whether opinions are divided along ethnic lines. We find evidence of ethnic dissensus in nearly every country, strongest in perceptions of climate hazards but also present in views on policy responses. Using Bayesian multilevel models, we assess three explanations: individual composition of groups, group-level attributes, and geographic context. We find the strongest evidence for the third explanation, specifically that dissensus is greatest where ethnic groups are more regionally segregated. Additionally, wealthier groups tend to be more aware of climate issues yet less concerned about action, though inequality itself does not predict dissensus. These findings underscore the links between ethnicity, regionalism, and climate politics, contributing to research on ethnic politics, public goods provision, and the emerging field of climate-related attitudes.
-
+<summary> Post-pilot survey draft </summary>
+::: {.body}
+[Available here](https://www.dropbox.com/scl/fi/pk1manrwsibjfqp70eys0/sanchez_johnston_adaptation_brazil.pdf?rlkey=kxop3bbdbwzs4pribw7ft8k5h&st=0vvgezef&dl=0){target="_blank" rel="noopener"}
+:::
 </details>
+:::
+
+
+**Pulling the Fire Alarm? Insurer corporate political behavior on climate change**
+
+::: {.paper-actions}
+<details>
+<summary> Abstract </summary>
+::: {.body}
+How do firms cross-pressured between energy transition risk and physical climate risk engage with climate politics? I hypothesize that cross-pressured firms will support climate adaptation policy as a way of simultaneously reducing physical risk exposure without jeopardizing their carbon-intensive assets. Focusing on a most-likely case for the hypothesis, I examine one of the largest industries financially affected by rising climate risk: US property insurers. Large underwriting losses from climate shocks threaten industry profits and invite state intervention, seemingly creating large incentives to support decarbonization. Simultaneously, insurers are institutional investors in the carbon-intensive status quo, which confers transition risk. Linking a panel of insurer characteristics and security-level investment data with information on their lobbying and campaign contributions, I study how investments in fossil fuels (a measure of transition risk) and loss ratios on catastrophe-relevant underwriting (physical risk) affect insurer political behavior. Descriptively, insurers began lobbying on climate-related topics and realigned to support Democratic candidates after the 2017 climate-driven hardening to reinsurance markets. As predicted, most of the recent expansion of climate-relevant lobbying is on adaptation topics, rather than mitigation. Cross-sectionally, insurers' exposure to catastrophe-relevant underwriting and fossil investments are associated with more and less climate-friendly political behavior, respectively. The findings contribute to growing literatures on insurance politics under climate change, firms' responses to climate risk, and the politics of adaptation.
+:::
+</details>
+:::
+
+
+## Teaching
 
 <details>
-
-<summary>**Can You Stand the Heat? Ideology and individual-level climate adaptation in Brazil** *(with [Clemente T. Sanchez](https://www.clementesanchez.com/))*</summary>
-
-How do people adapt to climate change? Although individuals have incentives to change their lifestyles and economic choices to reduce their exposure to climate risks, decades of research have also shown that risk perceptions and tolerance are shaped by social and political factors. We propose that just as politics may affect whether individuals develop concern for climate change, it may also affect the adaptive actions individuals take in response to climate trends. Studying the case of Brazil, a country which faces severe climate risks, we focus on one channel through which party politics may affect individual climate adaptation: differential risk tolerance. Leveraging a large representative survey of Brazilian households in conjunction with a novel survey experiment, we examine whether respondents living in conservative areas show lower elasticities of self-reported adaptation to climate risks such as drought, floods, temperature anomalies, and fires. If so, this may indicate that political ideology can moderate the relationship between risk and adaptation, possibly contributing to adaptation shortfalls in the developing world.
-
-</details>
-
-<details>
-
-<summary>**Pulling the Fire Alarm? Insurer corporate political behavior on climate change**</summary>
-
-How do firms cross-pressured between energy transition risk and physical climate risk engage with climate politics? I hypothesize that cross-pressured firms will support climate adaptation policy as a way of simultaneously reducing physical risk exposure without jeopardizing their carbon-intensive assets. Focusing on a most-likely case for the hypothesis, I examine one of the largest industries financially affected by rising climate risk: US property insurers. Large underwriting losses from climate shocks threaten industry profits and invite state intervention, seemingly creating large incentives to support decarbonization. Simultaneously, insurers are institutional investors in the carbon-intensive status quo, which confers transition risk. Linking a panel of insurer characteristics and security-level investment data with information on their lobbying and campaign contributions, I study how investments in fossil fuels (a measure of transition risk) and loss ratios on catastrophe-relevant underwriting (physical risk) affect insurer political behavior. Descriptively, insurers began lobbying on climate-related topics and realigned to support Democratic candidates after the 2017 climate-driven hardening to reinsurance markets. As predicted, most of the recent expansion of climate-relevant lobbying is on adaptation topics, rather than mitigation. Cross-sectionally, insurers' exposure to catastrophe-relevant underwriting and fossil investments are associated with more and less climate-friendly political behavior, respectively. The findings aim to contribute to growing literatures on insurance politics under climate change, firms' responses to climate risk, and the politics of adaptation.
-
-</details>
-
-#### Teaching 
-<details>
-
 <summary> **17.20 Introduction to American Politics** </summary>
-Fall 2024 with Professor [Devin Caughey](https://devincaughey.github.io/) 
-
+::: {.body}
+Fall 2024 with Professor [Devin Caughey](https://devincaughey.github.io/){target="_blank" rel="noopener"}
+:::
 </details>
 
 <details>
-
-<summary> **17.802 Quantitative Research Methods II: Causal Inference**
-</summary>
-
-Spring 2025 with Professor [F. Daniel Hidalgo](https://www.dhidalgo.me/) 
-
+<summary> **17.802 Quantitative Research Methods II: Causal Inference** </summary>
+::: {.body}
+Spring 2025 with Professor [F. Daniel Hidalgo](https://www.dhidalgo.me/){target="_blank" rel="noopener"}
+:::
 </details>
-
-
-
-

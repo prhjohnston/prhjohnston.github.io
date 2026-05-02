@@ -1,148 +1,632 @@
-/* body {
-  font-family: Tahoma;
-} */
+/* ============================================================
+   Preston R. Johnston — academic site
+   Aesthetic: editorial / scholarly press.
+   Newsreader serif throughout, warm cream paper, oxblood accent,
+   hairline rules, tracked-out small caps for utility labels.
+   ============================================================ */
 
-/*h2, h3 { 
-  font-family: 'Monospace', sans-serif
-}/*
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300..700;1,6..72,300..700&family=Public+Sans:wght@400;500;600;700&display=swap');
 
+/* ---------- Design tokens ---------- */
+:root {
+  --bg:            #fbf8f2;   /* warm cream paper */
+  --bg-tint:       #f3ebd8;   /* slightly darker tint for surfaces */
+  --ink:           #1c1a17;   /* warm near-black */
+  --ink-muted:     #685f54;   /* muted body */
+  --ink-subtle:    #948a7d;   /* secondary metadata */
+  --rule:          #e3dccb;   /* hairline */
+  --rule-strong:   #c8bfac;   /* slightly stronger hairline */
+  --accent:        #008c99;   /* brighter teal for links and accents */
+  --accent-hover:  #00a3b3;
+  --accent-soft:   #a8d9de;
 
-
-/* Apply Monospace for the navbar 
-.navbar, .navbar a {
-  font-family: 'Monospace', sans-serif
-}*/
-
-details summary {
-  color: inherit !important;
+  --serif: "Newsreader", "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Palatino, Georgia, serif;
+  --sans:  "Public Sans", -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+  --mono:  "JetBrains Mono", "SF Mono", Menlo, Consolas, monospace;
 }
 
-
-/*.details { 
-  font-family: 'Monospace', sans-serif  
-  color: black;
-}*/
-
-
-/*.works-in-progress {
-  color: black;
-  font-size: 90%;
-  font-family: 'Monospace', sans-serif
+/* ---------- Base ---------- */
+html {
+  background: var(--bg);
 }
-*/
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font-family: var(--serif);
+  font-optical-sizing: auto;
+  font-variation-settings: "opsz" 16;
+  font-feature-settings: "kern", "liga", "onum"; /* old-style figures */
+  font-size: 17px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--accent);
+  color: var(--bg);
+}
+
+p {
+  margin: 0 0 1.05em;
+}
+
+a {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent-soft);
+  transition: color 180ms ease, border-color 180ms ease;
+}
+a:hover,
+a:focus-visible {
+  color: var(--accent-hover);
+  border-bottom-color: var(--accent-hover);
+}
+a:focus-visible {
+  outline: 2px solid var(--accent-soft);
+  outline-offset: 3px;
+  border-radius: 1px;
+}
+
+strong, b {
+  font-weight: 600;
+  color: var(--ink);
+}
+
+em, i {
+  font-style: italic;
+}
 
 img {
   max-width: 100%;
   height: auto;
 }
 
-.social-tile {
-  display: inline-block;
-  padding: 10px 20px;
-  margin-right: 10px;
-  background-color: #1da1f2; /* Twitter's blue color */
-  color: white;
-  text-decoration: none;
-  border-radius: 5px;
-  font-weight: bold;
-  transition: background-color 0.3s;
+/* ---------- Section headings (## Working papers, etc.) ---------- */
+h1, h2, h3, h4 {
+  font-family: var(--serif);
+  font-weight: 500;
+  letter-spacing: -0.012em;
+  color: var(--ink);
 }
 
-/* Smaller font for abstracts */
-details {
-  font-size: 0.9em;
-  line-height: 1.5;
+h2 {
+  font-family: var(--sans);
+  font-size: 1rem;
+  font-weight: 600;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--ink);
+  margin: 2.4rem 0 1rem;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--rule);
+  display: flex;
+  align-items: center;
+  gap: 0.85rem;
+}
+h2::before {
+  content: "";
+  width: 1.2rem;
+  height: 2px;
+  background: var(--accent);
+  flex: 0 0 auto;
 }
 
-/* Force the photo smaller */
-.quarto-about-trestles .about-entity img {
-  max-width: 220px !important;
-  width: 220px !important;
+/* ---------- Navbar ---------- */
+.navbar {
+  background: var(--bg) !important;
+  border-bottom: 1px solid var(--rule);
+  padding: 0.8rem 1.6rem !important;
+  box-shadow: none !important;
+}
+.navbar .navbar-brand,
+.navbar .navbar-title,
+.navbar-brand .navbar-title {
+  font-family: var(--serif) !important;
+  font-weight: 500 !important;
+  font-size: 1.05rem !important;
+  letter-spacing: -0.005em !important;
+  color: var(--ink) !important;
+  border-bottom: 0 !important;
+}
+.navbar a.nav-link,
+.navbar .nav-link {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--ink-muted) !important;
+  border: 0 !important;
+  padding: 0.5rem 0.9rem !important;
+  transition: color 180ms ease;
+}
+.navbar a.nav-link:hover,
+.navbar .nav-link:hover {
+  color: var(--accent) !important;
 }
 
-/* Force the left column wider to fit name */
+/* ---------- Trestles layout: identity card (left) ---------- */
+.quarto-about-trestles {
+  justify-content: flex-start !important;
+  align-items: flex-start !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  max-width: 100% !important;
+  width: 100% !important;
+  gap: 3rem;
+  padding-top: 1.4rem;
+}
+
 .quarto-about-trestles .about-entity {
-  width: 350px !important;
-  min-width: 350px !important;
-  max-width: 350px !important;
+  width: 240px !important;
+  min-width: 240px !important;
+  max-width: 240px !important;
+  padding: 0.5rem 0 1rem;
+  text-align: center;
+  position: sticky;
+  top: 1.5rem;
+  flex: 0 0 auto;
 }
 
-/* Adjust the right column */
+/* Photo: ringed treatment (hairline + breathing space + outer hairline) */
+.quarto-about-trestles .about-entity img {
+  max-width: 188px !important;
+  width: 188px !important;
+  height: 188px !important;
+  border-radius: 50%;
+  object-fit: cover;
+  object-position: center 12%;
+  display: block;
+  margin: 0.25rem auto 1.25rem;
+  box-shadow:
+    0 0 0 1px var(--rule-strong),
+    0 0 0 7px var(--bg),
+    0 0 0 8px var(--rule);
+}
+
+/* Name title in trestles header */
+.quarto-about-trestles .about-entity .h1,
+.quarto-about-trestles .about-entity h1.title,
+.quarto-about-trestles .about-entity .title {
+  font-family: var(--serif) !important;
+  font-weight: 500 !important;
+  font-size: 1.4rem !important;
+  letter-spacing: -0.02em !important;
+  line-height: 1.15 !important;
+  color: var(--ink) !important;
+  margin: 0 0 0.35rem !important;
+  font-variation-settings: "opsz" 30;
+}
+/* Small accent rule under the name */
+.quarto-about-trestles .about-entity .title::after {
+  content: "";
+  display: block;
+  width: 1.8rem;
+  height: 1px;
+  background: var(--accent);
+  margin: 0.7rem auto 0.85rem;
+}
+
+/* Description (role / subfields / photo credit) */
+.quarto-about-trestles .about-entity .description,
+.quarto-about-trestles .about-entity p.description {
+  font-family: var(--serif) !important;
+  font-size: 0.95rem !important;
+  line-height: 1.55 !important;
+  color: var(--ink-muted) !important;
+  font-style: normal !important;
+  margin: 0 auto 1.2rem !important;
+  max-width: 26ch;
+}
+.quarto-about-trestles .about-entity .description a {
+  color: var(--accent) !important;
+  border-bottom: 1px dotted var(--accent-soft) !important;
+}
+.quarto-about-trestles .about-entity .description a:hover {
+  color: var(--accent) !important;
+  border-bottom-color: var(--accent) !important;
+}
+/* The italic "Photo credit ..." line: smaller, sans, very subtle */
+.quarto-about-trestles .about-entity .description em {
+  display: block;
+  font-style: normal !important;
+  font-family: var(--sans) !important;
+  font-size: 0.65rem !important;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+  color: var(--ink-subtle) !important;
+  margin-top: 1rem;
+  max-width: 28ch;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Social links — bordered tags, tracked-out small caps */
+.about-link,
+.about-links .about-link {
+  display: inline-flex !important;
+  align-items: center;
+  gap: 0.3rem;
+  font-family: var(--sans) !important;
+  font-size: 0.62rem !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-muted) !important;
+  background: transparent !important;
+  border: 1px solid var(--rule-strong) !important;
+  border-radius: 0 !important;
+  padding: 0.32rem 0.6rem !important;
+  margin: 0 !important;
+  transition: color 200ms ease, border-color 200ms ease, background 200ms ease;
+}
+.about-link:hover,
+.about-link:focus-visible {
+  color: var(--accent) !important;
+  border-color: var(--accent) !important;
+  background: transparent !important;
+}
+.about-link i,
+.about-link .bi {
+  font-size: 0.72rem;
+  line-height: 1;
+}
+.quarto-about-trestles .about-links,
+.about-links {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row !important;
+  justify-content: center;
+  gap: 0.4rem;
+  width: auto !important;
+  margin-top: 0.35rem;
+  padding-top: 0 !important;
+  padding-bottom: 0.7rem !important;
+}
+.quarto-about-trestles .about-link {
+  width: auto !important;
+  min-width: 0 !important;
+  flex: 0 0 auto !important;
+}
+
+/* ---------- Trestles layout: contents (right column) ---------- */
 .quarto-about-trestles .about-contents {
-  min-width: 550px !important;
-  flex-grow: 1 !important;
+  min-width: 0 !important;
+  flex: 1 1 auto !important;
+  max-width: 800px;
+  padding: 0.2rem 0 4rem;
 }
 
-/* Make the main content area expand */
 .about-contents main.content,
 .about-contents #quarto-document-content {
   max-width: 100% !important;
   width: 100% !important;
 }
 
-/* Style for photo caption */
-.photo-caption {
-  font-size: 0.75em;
+/* Body paragraphs in the right column: comfortable but compact measure */
+.about-contents > p,
+.about-contents > main > p,
+.about-contents #quarto-document-content > p {
+  max-width: 40rem;
+  font-size: 0.95rem;
+  line-height: 1.46;
+  color: var(--ink);
+  margin: 0 0 0.55em;
+}
+
+/* ---------- Working papers ---------- */
+
+/* Paper title — the <p> immediately followed by .paper-actions.
+   Uses :has() for precise targeting. */
+.about-contents p:has(+ .paper-actions) {
+  margin: 1.1rem 0 0.4rem;
+  padding-top: 0.95rem;
+  border-top: 1px solid var(--rule);
+  max-width: 40rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  color: var(--ink);
+}
+/* First paper of a section: no top rule (h2 already provides one) */
+.about-contents h2 + p:has(+ .paper-actions) {
+  margin-top: 0.4rem;
+  padding-top: 0;
+  border-top: 0;
+}
+.about-contents p:has(+ .paper-actions) strong {
+  font-weight: 500;
+  font-size: 1.02rem;
+  letter-spacing: -0.008em;
+  color: var(--ink);
+  font-variation-settings: "opsz" 24;
+}
+
+/* Coauthors parenthetical */
+.coauthors {
+  font-size: 0.86rem;
   font-style: italic;
-  color: #666;
+  font-weight: 400;
+  color: var(--ink-muted);
+  letter-spacing: 0;
+}
+.coauthors a {
+  color: var(--ink-muted);
+  border-bottom: 1px dotted var(--rule-strong);
+}
+.coauthors a:hover {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+
+/* ---------- Paper actions row (Abstract / Draft toggles) ---------- */
+.paper-actions {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  column-gap: 0.7rem;
+  row-gap: 0.4rem;
+  margin: 0 0 0.5rem;
+  max-width: 48rem;
+}
+
+/* Toggle summaries — small caps button-link */
+.paper-actions > details > summary {
+  list-style: none;
+  cursor: pointer;
+  display: inline;
+  font-family: var(--sans);
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--accent);
+  border-bottom: 1px solid var(--accent-soft);
+  padding-bottom: 1px;
+  transition: color 180ms ease, border-color 180ms ease;
+}
+.paper-actions > details > summary:hover {
+  color: var(--accent-hover);
+  border-bottom-color: var(--accent-hover);
+}
+.paper-actions > details > summary::-webkit-details-marker { display: none; }
+.paper-actions > details > summary::marker { content: ""; }
+
+.paper-actions > details[open] > summary {
+  color: var(--ink);
+  border-bottom-color: var(--ink);
+}
+
+/* When open: drop the .body wrapper to a full-width row below */
+.paper-actions > details[open] {
+  display: contents;
+}
+.paper-actions > details[open] > .body {
+  flex-basis: 100%;
+  order: 2;
+  margin: 0.65rem 0 0.25rem;
+  padding: 0.65rem 0.9rem 0.7rem 1rem;
+  background: var(--bg-tint);
+  border-left: 2px solid var(--accent);
+  font-family: var(--serif);
+  font-size: 0.86rem;
+  line-height: 1.36;
+  color: var(--ink);
+}
+.paper-actions > details[open] > .body > p {
+  margin: 0;
+}
+.paper-actions > details[open] > .body > p + p {
+  margin-top: 0.45em;
+}
+.paper-actions > details[open] > .body a {
+  color: var(--accent);
+  border-bottom-color: var(--accent-soft);
+}
+
+/* Separator between toggles (tiny center dot, not pipe) */
+.paper-actions > details + details > summary::before {
+  content: "·";
+  display: inline-block;
+  margin-right: 0.7rem;
+  color: var(--rule-strong);
+  font-family: var(--serif);
+  font-size: 0.9rem;
+  letter-spacing: 0;
+  font-weight: 400;
+  line-height: 1;
+  pointer-events: none;
+  border-bottom: 0;
+}
+
+/* ---------- Teaching section (standalone <details>) ---------- */
+/* Bare <details> directly under the right column (not in .paper-actions) */
+.about-contents > details,
+.about-contents #quarto-document-content > details {
+  max-width: 38rem;
+  margin: 0;
+  border-bottom: 1px solid var(--rule);
+}
+.about-contents > details > summary,
+.about-contents #quarto-document-content > details > summary {
+  list-style: none;
+  cursor: pointer;
+  font-family: var(--serif);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--ink);
+  padding: 0.85rem 0;
+  position: relative;
+  padding-right: 2rem;
+}
+.about-contents > details > summary::-webkit-details-marker,
+.about-contents #quarto-document-content > details > summary::-webkit-details-marker {
+  display: none;
+}
+.about-contents > details > summary::after,
+.about-contents #quarto-document-content > details > summary::after {
+  content: "+";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: var(--sans);
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: var(--ink-subtle);
+  transition: transform 180ms ease, color 180ms ease;
+}
+.about-contents > details[open] > summary::after,
+.about-contents #quarto-document-content > details[open] > summary::after {
+  content: "−";
+  color: var(--accent);
+}
+.about-contents > details > .body,
+.about-contents #quarto-document-content > details > .body {
+  font-size: 0.93rem;
+  color: var(--ink-muted);
+  padding: 0 0 1rem;
+  margin: 0;
+}
+.about-contents > details > .body p,
+.about-contents #quarto-document-content > details > .body p {
+  margin: 0;
+}
+.about-contents > details > summary strong,
+.about-contents #quarto-document-content > details > summary strong {
+  font-weight: 500;
+}
+
+/* ---------- Caption helper (kept for compatibility) ---------- */
+.photo-caption {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  font-style: normal;
+  letter-spacing: 0.05em;
+  color: var(--ink-subtle);
   text-align: center;
-  margin-top: 0.5em;
+  margin-top: 0.6em;
 }
 
-/* Make sure the page container is wide enough */
+/* Legacy social-tile (kept for compatibility but neutralized) */
+.social-tile {
+  display: inline-block;
+  padding: 8px 16px;
+  margin-right: 8px;
+  background-color: transparent;
+  color: var(--ink);
+  text-decoration: none;
+  border: 1px solid var(--rule-strong);
+  border-radius: 0;
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 0.7rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  transition: color 200ms ease, border-color 200ms ease;
+}
+.social-tile:hover {
+  color: var(--accent);
+  border-color: var(--accent);
+}
+
+/* ---------- Page container ---------- */
 #quarto-content {
-  max-width: 1400px !important;
-  width: 98% !important;
+  max-width: 1200px !important;
+  width: 96% !important;
   margin-left: auto !important;
   margin-right: auto !important;
+  padding-top: 1.5rem;
 }
 
-/* Center the trestles layout */
-.quarto-about-trestles {
-  justify-content: center !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  max-width: 100% !important;
-  width: 100% !important;
+/* Footer */
+.nav-footer,
+.nav-footer-center,
+.nav-footer-left,
+.nav-footer-right {
+  font-family: var(--sans);
+  font-size: 0.72rem;
+  letter-spacing: 0.1em;
+  color: var(--ink-subtle) !important;
+  border-top: 1px solid var(--rule);
+  background: var(--bg) !important;
+  padding-top: 1.2rem;
+  padding-bottom: 1.2rem;
 }
 
-/* Mobile responsive layout */
+/* ---------- Mobile ---------- */
 @media screen and (max-width: 768px) {
+  body { font-size: 16px; }
+
   .quarto-about-trestles {
     flex-direction: column !important;
     align-items: center !important;
+    gap: 0.6rem;
+    padding-top: 0.6rem;
   }
-  
   .quarto-about-trestles .about-entity {
     width: 100% !important;
     max-width: 100% !important;
     min-width: unset !important;
     text-align: center !important;
+    position: static;
+    padding: 0.7rem 0 0.15rem;
   }
-  
   .quarto-about-trestles .about-entity img {
-    max-width: 200px !important;
-    width: 200px !important;
-    margin: 0 auto !important;
+    max-width: 150px !important;
+    width: 150px !important;
+    height: 150px !important;
+    margin: 0 auto 0.9rem !important;
   }
-  
+  .quarto-about-trestles .about-entity .h1,
+  .quarto-about-trestles .about-entity h1.title,
+  .quarto-about-trestles .about-entity .title {
+    font-size: 1.25rem !important;
+    margin-bottom: 0.25rem !important;
+  }
+  .quarto-about-trestles .about-entity .title::after {
+    margin: 0.5rem auto 0.65rem;
+  }
+  .quarto-about-trestles .about-entity .description,
+  .quarto-about-trestles .about-entity p.description {
+    font-size: 0.88rem !important;
+    line-height: 1.42 !important;
+    margin-bottom: 0.8rem !important;
+  }
+  .quarto-about-trestles .about-entity .description em {
+    margin-top: 0.65rem;
+    line-height: 1.35;
+  }
   .quarto-about-trestles .about-contents {
     width: 100% !important;
     max-width: 100% !important;
     min-width: unset !important;
+    padding: 0 0 3rem;
   }
-  
-  .about-contents main.content,
-  .about-contents #quarto-document-content {
-    max-width: 100% !important;
-    width: 100% !important;
-    min-width: unset !important;
+  .about-contents > p,
+  .about-contents #quarto-document-content > p {
+    font-size: 0.94rem;
+    line-height: 1.43;
+    margin-bottom: 0.5em;
   }
-  
+  .about-contents p:has(+ .paper-actions),
+  .paper-actions {
+    max-width: 100%;
+  }
+  .paper-actions > details[open] > .body {
+    margin: 0.55rem -0.35rem 0.2rem;
+    padding: 0.55rem 0.65rem 0.6rem 0.8rem;
+    font-size: 0.84rem;
+    line-height: 1.34;
+  }
   #quarto-content {
     width: 100% !important;
     max-width: 100% !important;
-    padding-left: 15px !important;
-    padding-right: 15px !important;
+    padding-left: 1.1rem !important;
+    padding-right: 1.1rem !important;
+  }
+  h2 {
+    margin-top: 1.6rem;
   }
 }

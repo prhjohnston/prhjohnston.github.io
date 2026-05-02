@@ -5,9 +5,7 @@ project:
 website:
   title: "Preston R. Johnston"
   navbar:
-    right:
-      - href: index.qmd
-        text: about
+    right: []
   search: false
   favicon: MIT_logo.jpeg
       
