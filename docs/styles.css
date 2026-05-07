@@ -382,6 +382,10 @@ h2::before {
   margin: 0 0 0.5rem;
   max-width: 48rem;
 }
+.paper-actions > details {
+  display: inline-flex;
+  align-items: baseline;
+}
 
 /* Toggle summaries — small caps button-link */
 .paper-actions > details > summary {
@@ -438,7 +442,7 @@ h2::before {
 }
 
 /* Separator between toggles (tiny center dot, not pipe) */
-.paper-actions > details + details > summary::before {
+.paper-actions > details + details::before {
   content: "·";
   display: inline-block;
   margin-right: 0.7rem;
