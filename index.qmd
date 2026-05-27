@@ -20,7 +20,7 @@ about:
       href: https://x.com/prhjohnston
 ---
 
-I am a PhD candidate in the MIT Department of Political Science. My research agenda studies the political consequences of rising climate risk, with a particular interest in how climate costs are spread across space and social groups. Methodologically, my projects often combine spatial climate data with causal inference tools to study how climate risk affects outcomes including policymaking, political behavior, and interest group politics. I'm also interested in what makes climate adaptation efforts politically durable and resilient to backlash.
+I am a PhD candidate in the MIT Department of Political Science. I study the political consequences of rising climate risk, with a focus on how climate costs are spread across space and social groups. My projects often combine spatial climate data with causal inference tools to study how climate risk affects policymaking, political behavior, and interest group politics. I'm also interested in how to make climate adaptation efforts effective, equitable, and politically durable.
 
 My dissertation examines one of the most important impacts of climate risk in wealthy countries: disrupted property insurance markets. My regional focus is the [American Political Economy](https://www.americanpoliticaleconomy.org/), but I am also working on projects studying other regions.
 
