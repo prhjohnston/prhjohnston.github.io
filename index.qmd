@@ -33,7 +33,9 @@ Before graduate school, I received an undergraduate degree in Politics with a ce
 
 ## Working papers
 
-**Resisting Segmentation: Climate risk and the politics of insurance**
+*\* indicates dissertation paper*
+
+**Resisting Segmentation: Climate risk and the politics of insurance\***
 
 ::: {.paper-actions}
 <details>
@@ -52,13 +54,13 @@ Rising climate risk in the United States has destabilized property insurance mar
 :::
 
 
-**Ethnicity and Climate Attitudes in Africa** [*(with [Devin Caughey](https://devincaughey.github.io/){target="_blank" rel="noopener"} and [Evan Lieberman](https://evanlieb.mit.edu/){target="_blank" rel="noopener"})*]{.coauthors}
+**Ethnicity and Climate Attitudes in Africa** [*(with [Devin Caughey](https://devincaughey.github.io/){target="_blank" rel="noopener"} and [Evan Lieberman](https://evanlieb.mit.edu/){target="_blank" rel="noopener"})*]{.coauthors}. Under review. 
 
 ::: {.paper-actions}
 <details>
 <summary> Abstract </summary>
 ::: {.body}
-The African continent has already experienced severe climate impacts, yet public attitudes toward climate change vary widely within and across countries. Despite the well-established importance of ethnic politics in many African countries, we know little about the role ethnicity plays in structuring attitudes on this critical problem. Drawing on Afrobarometer surveys from 29 countries, we test whether opinions are divided along ethnic lines. We find evidence of ethnic-based cleavages in nearly every country, strongest in perceptions of climate hazards but also present in views on policy responses. We use a mix of analytic approaches, including Bayesian multilevel models, to estimate the prevalence of such "ethnic dissensus" across countries and issue areas, and in comparison with several non-climate outcomes. We find that dissensus is greatest in countries where ethnic groups are more segregated across ecological zones. By contrast, wealth inequality between groups is not a strong predictor of dissensus. These findings underscore the links between ethnicity, regionalism, and climate politics, contributing to research on ethnic politics, public goods provision, and climate-related attitudes.
+Africa is the world region most vulnerable to climate change, but climate opinion on the continent varies widely. Building on the well-established importance of ethnicity for structuring politics in many African countries, we provide the first systematic examination of ethnic dissensus on this issue. Using Afrobarometer data from 29 countries, we first show that ethnic differences are statistically significant in nearly every country. We then show that while ethnic dissensus is often of modest magnitude and importance, in some countries ethnicity explains as much as 30\% of the variation in survey responses. Contrary to theories emphasizing ethnic or regional inequality, these factors are not correlated with the severity of ethnic dissensus in a country. Rather, the best predictor of ethnic dissensus over climate change is the degree of ethnic segregation. These findings provide the first descriptive overview of ethnic cleavages on this emerging issue and point toward spatial concentration as a key driver of inter-group differences.
 :::
 </details>
 
@@ -70,13 +72,13 @@ The African continent has already experienced severe climate impacts, yet public
 </details>
 :::
 
-**Voters Uncovered: Home insurance availability, electoral accountability, and climate adaptation**
+**Voters Uncovered: Home insurance availability, electoral accountability, and climate adaptation\***
 
 ::: {.paper-actions}
 <details>
 <summary> Abstract </summary>
 ::: {.body}
-This paper studies the electoral implications of the unfolding climate-change-driven home insurance crisis in the United States. In recent years, home insurance prices have risen significantly faster than inflation and the non-renewal rate, a measure of coverage unavailability, has more than doubled. Drawing on county-level panel data on election returns and home insurance non-renewal rates, I use a difference-in-differences framework to examine whether declines in home insurance availability caused anti-incumbent voting in gubernatorial and insurance commissioner elections in the period 2017-2024. I find that declining coverage availability results in an electoral penalty for Democratic governors, with more ambiguous effects on insurance commissioner elections. Given the potential political costs to coverage declines, I then turn to an analysis of whether voters reward incumbents for policies designed to reduce non-renewals. In particular, I study a recent California policy that places a one-year moratorium on coverage non-renewals in the wake of wildfires. I find that coverage non-renewal moratoria that expire prior to the 2022 election reduce incumbent voteshare. This finding is explained by the fact that insurers immediately increase premiums following moratorium issuance and accelerate coverage withdrawals following moratorium expiry. The results highlight the dilemmas facing governments dependent on the private insurance industry to protect homeowners against rising climate risk. As climate change worsens, electoral politics may create incentives to mitigate the passthrough of climate risk to households.
+Do voters punish incumbents for the financial effects of climate change? If so, do policies that protect citizens from these effects produce electoral rewards? I study these questions in the context of the growing home insurance crisis in the United States. In recent years, home insurance premiums have risen significantly faster than inflation and the non-renewal rate, a measure of coverage unavailability, has more than doubled. Drawing on county-level panel data, I examine whether declines in home insurance availability caused anti-incumbent voting in gubernatorial and insurance commissioner elections in the period 2017-2024. I find that declining coverage availability results in an electoral penalty for Democratic governors, with more ambiguous effects on insurance commissioner elections. Given the potential political costs to coverage declines, I then analyze whether voters reward incumbents for policies designed to reduce non-renewals. I study a recent California policy that places one-year moratoria on non-renewals following wildfires. I find that moratoria that expire prior to the 2022 election reduce incumbent voteshare. This finding is explained by private insurers immediately increasing premiums following moratorium issuance and accelerating non-renewals following moratorium expiry. The results highlight the dilemmas facing governments dependent on private intermediaries to protect constituents from worsening climate risk.
 :::
 </details>
 :::
@@ -127,6 +129,19 @@ How do firms cross-pressured between energy transition risk and physical climate
 </details>
 :::
 
+**Who Pays for Climate Change? The Politics of Reinsurance Pools in the UK and Australia\* **
+
+::: {.paper-actions}
+<details>
+<summary> Abstract </summary>
+::: {.body}
+Following climate-driven disruptions to property insurance in the last two decades, both the United Kingdom and Australia enacted public reinsurance pools, an emerging policy design that aims to stabilize insurance markets and which represents a blend of solidarity-based and market-based logic. However, despite these countries’ broadly similar political economies, their reinsurance pools differ in the form of risk socialization they enact and in the incorporation of private insurer preferences. Whereas in the UK private insurers preferred the Flood Re pool and virtually wrote its design, insurers all opposed the Cyclone Reinsurance Pool in Australia. Through a mixed methods approach drawing on semistructured elite interviews, analysis of government
+documents, and climate hazard data, I argue this variation owes to differences in (1) climate
+risk incidence, or the relationship between spatial climate risk and wealth; and (2) the
+institutional and structural power of the insurance industry. 
+:::
+</details>
+:::
 
 ## Teaching
 
