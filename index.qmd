@@ -20,7 +20,7 @@ about:
       href: https://x.com/prhjohnston
 ---
 
-I am a PhD candidate in the MIT Department of Political Science. My main research agenda examines the political consequences of rising climate risk, with a focus on how climate costs are spread across space and social groups. My projects often combine spatial climate data with causal inference tools to study how climate risk affects policymaking, political behavior, and interest group politics. My research aims to provide insights that help make climate adaptation effective, equitable, and politically durable.
+I am a PhD candidate in the MIT Department of Political Science. My main research agenda examines the consequences of rising climate risk, with a focus on how politics spreads climate costs across space and social groups. My projects often combine spatial climate data with causal inference tools to study how climate risk affects policymaking, political behavior, and interest group politics. My research aims to provide insights that help make climate adaptation effective, equitable, and politically durable.
 
 My dissertation examines one of the most important impacts of climate risk in wealthy countries: disrupted property insurance markets. The project's primary case is the United States, with comparisons to Australia and the UK. 
 
@@ -28,7 +28,9 @@ I am also more broadly interested in the [American Political Economy](https://ww
 
 I am a graduate student [affiliate](https://ces.fas.harvard.edu/people/preston-r-johnston) of the Minda de Gunzberg Center for European Studies at Harvard. Together with [Clemente T. Sanchez](https://www.clementesanchez.com/){target="_blank" rel="noopener"}, I also run the [Comparative Politics and Political Economy](https://cis.mit.edu/current-working-groups) (COPE) graduate student seminar at MIT.
 
-Before graduate school, I received an undergraduate degree in Politics with a certificate in Statistics and Machine Learning from Princeton University. You can find my CV [here.](Preston_Johnston_CV.pdf)
+Before graduate school, I received an undergraduate degree in Politics with a certificate in Statistics and Machine Learning from Princeton University. 
+
+I will be on the 2026-2027 academic job market. You can find my CV [here.](Preston_Johnston_CV.pdf)
 
 
 ## Working papers
