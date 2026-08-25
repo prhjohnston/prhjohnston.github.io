@@ -20,37 +20,37 @@ about:
       href: https://x.com/prhjohnston
 ---
 
-I am a PhD candidate in the MIT Department of Political Science. My main research agenda examines the consequences of rising climate risk, with a focus on how politics spreads climate costs across space and social groups. My projects often combine spatial climate data with causal inference tools to study how climate risk affects policymaking, political behavior, and interest group politics. My research aims to provide insights that help make climate adaptation effective, equitable, and politically durable.
+I am a PhD candidate in the MIT Department of Political Science. My main research agenda examines the consequences of rising climate risk, with a focus on how politics spreads climate costs across space and social groups. My projects often combine spatial climate data with causal inference tools to study how climate risk affects policymaking, political behavior, and interest group politics. 
 
 My dissertation examines one of the most important impacts of climate risk in wealthy countries: disrupted property insurance markets. The project's primary case is the United States, with comparisons to Australia and the UK. 
 
-I am also more broadly interested in the [American Political Economy](https://www.americanpoliticaleconomy.org/), especially money in politics.   
+I am also more broadly interested in the [American Political Economy](https://www.americanpoliticaleconomy.org/), especially the link between money in politics and democratic backsliding.   
 
-I am a graduate student [affiliate](https://ces.fas.harvard.edu/people/preston-r-johnston) of the Minda de Gunzberg Center for European Studies at Harvard. Together with [Clemente T. Sanchez](https://www.clementesanchez.com/){target="_blank" rel="noopener"}, I also run the [Comparative Politics and Political Economy](https://cis.mit.edu/current-working-groups) (COPE) graduate student seminar at MIT.
+I am a graduate student [affiliate](https://ces.fas.harvard.edu/people/preston-r-johnston) of the Minda de Gunzberg Center for European Studies at Harvard. 
 
 Before graduate school, I received an undergraduate degree in Politics with a certificate in Statistics and Machine Learning from Princeton University. 
 
-I will be on the 2026-2027 academic job market. You can find my CV [here.](Preston_Johnston_CV.pdf)
+**I will be on the 2026-2027 academic job market.** You can find my CV [here](Preston_Johnston_CV.pdf) and my job market paper below.
 
 
 ## Working papers
 
 *\* indicates dissertation paper*
 
-**Resisting Segmentation: Climate risk and the politics of insurance\***
+**When the Rich Confront Risk: Climate Change, Home Insurance, and Demands for Social Policy\*** (*job market paper*)
 
 ::: {.paper-actions}
 <details>
 <summary> Abstract </summary>
 ::: {.body}
-Rising climate risk in the United States has destabilized property insurance markets, prompting policymakers to consider insurance reforms that redistribute the costs of climate change. I identify two opposing types of reform that move markets either towards greater segmentation (i.e., individualized, risk-reflective pricing) or more risk pooling. I present survey evidence that citizens facing higher climate risk show greater support for government intervention in insurance markets and pooling-based notions of fairness. I then use an LLM-based strategy to classify a comprehensive dataset of insurance-related bills introduced in state legislatures since 2016. In cross-sectional and difference-in-differences designs, I find that legislators representing high-risk districts are more likely to sponsor pro-pooling legislation. However, states where wealthy homeowners stand to benefit have been more likely to enact pooling reforms. This can result in what I call 'regressive socialization,' complicating the distributive implications of risk pooling policies.
+Social insurance that pools risk across society typically redistributes downward and generates opposition from the rich. I argue this logic flips for social risks that positively correlate with wealth. I study home insurance under worsening climate risk, which falls---in some US states---disproportionately on wealthier areas. I classify a new dataset of all property insurance reform bills introduced in state legislatures in the last decade, distinguishing between bills that pool versus segment risk. Panel and factorial difference-in-differences designs show that legislators representing high-risk districts are more likely to support pooling bills. Risk incidence, in turn, predicts reform enactment: states where housing wealth and climate risk positively correlate enact more pooling and fewer segmenting reforms. Original survey data and a qualitative case study provide support for the proposed mechanisms. The results imply that when risk falls on the wealthy, social insurance---although solidaristic with high-risk citizens---may produce regressive effects.
 :::
 </details>
 
 <details>
 <summary> Draft </summary>
 ::: {.body}
-[Available here](https://www.dropbox.com/scl/fi/yzkoysikw6zrcuwiapz5w/johnston_resisting_segmentation_draft.pdf?rlkey=c3cc6312imqfn1kfinj6aq9k0&st=toi2vx0k&dl=0){target="_blank" rel="noopener"}
+[Available here](https://www.dropbox.com/scl/fi/hzdkt2xvfdi9m7fimdqmr/johnston_jmp_draft.pdf?rlkey=b3l21ekoryhuv9lryiw8u2qo0&st=m1az0pmh&dl=0){target="_blank" rel="noopener"}
 :::
 </details>
 :::
