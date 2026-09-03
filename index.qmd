@@ -118,6 +118,20 @@ How do people adapt to climate change? Although individuals have incentives to r
 </details>
 :::
 
+
+**The Distributive Politics of Climate Risk Information: Evidence from Oregon** [*(with [Brice Green](https://brice.green/){target="_blank" rel="noopener"}, [Janet Malzahn](https://jmalzahn.com/){target="_blank" rel="noopener"}, Andy McEvoy, and Christopher Dunn)*]{.coauthors}
+
+::: {.paper-actions}
+<details>
+<summary> Abstract </summary>
+::: {.body}
+In response to worsening climate impacts, governments increasingly pursue adaptation policies that provide information about risk. We argue that such policies can impose concentrated costs on high-risk citizens, who have incentives to suppress risk information. We study these dynamics in the context of public wildfire maps that assigned 1.8 million land parcels in Oregon a risk score. Exploiting a sharp discontinuity in risk categories and drawing on detailed data obtained through public records requests, we use a regression discontinuity design to study how assignment into risk categories affected political behavior. We show that risk category assignment did not boost turnout, nor did more intensely affected counties turn against incumbents. However, non-electoral behavior such as written petitions from disaffected homeowners---who are unrepresentative of homeowners statewide along key dimensions---was sufficient to prompt policymakers to withdraw the map. Our findings challenge the conventional view that adaptation policies provide particularistic benefits to high-risk communities.
+:::
+</details>
+
+:::
+
+
 **The Role of Organized Business in Democratic Backsliding in the United States** [*(with [Alex Hertel-Fernandez](https://www.hertelfernandez.com/){target="_blank" rel="noopener"} and [Kathleen Thelen](https://www.kathleenthelen.com/){target="_blank" rel="noopener"})*]{.coauthors}
 
 ::: {.paper-actions}
