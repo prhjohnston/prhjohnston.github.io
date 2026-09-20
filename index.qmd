@@ -24,7 +24,7 @@ I am a PhD candidate in the MIT Department of Political Science. My research sit
 
 My dissertation examines one of the most important impacts of climate risk in wealthy countries: distressed property insurance markets. The project's primary case is the United States, with comparisons to Australia and the UK. 
 
-I am also more broadly interested in the [American Political Economy](https://www.americanpoliticaleconomy.org/), especially the link between money in politics and democratic backsliding.   
+<!-- I am also more broadly interested in the [American Political Economy](https://www.americanpoliticaleconomy.org/), especially the link between money in politics and democratic backsliding.    -->
 
 I am a graduate student [affiliate](https://ces.fas.harvard.edu/people/preston-r-johnston) of the Minda de Gunzberg Center for European Studies at Harvard. 
 
