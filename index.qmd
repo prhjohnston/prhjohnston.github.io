@@ -37,13 +37,13 @@ Before graduate school, I received an undergraduate degree in Politics with a ce
 
 *\* indicates dissertation paper*
 
-**When the Rich Confront Risk: Climate Change, Home Insurance, and Demands for Social Policy\*** (*job market paper*)
+**When the Rich Confront Risk: Climate Change and the Politics of Home Insurance\*** (*job market paper*)
 
 ::: {.paper-actions}
 <details>
 <summary> Abstract </summary>
 ::: {.body}
-Social insurance that pools risk across society typically redistributes downward and generates opposition from the rich. I argue this logic flips for social risks that positively correlate with wealth. I study home insurance under worsening climate risk, which falls---in some US states---disproportionately on wealthier areas. I classify a new dataset of all property insurance reform bills introduced in state legislatures in the last decade, distinguishing between bills that pool versus segment risk. Panel and factorial difference-in-differences designs show that legislators representing high-risk districts are more likely to support pooling bills. Risk incidence, in turn, predicts reform enactment: states where housing wealth and climate risk positively correlate enact more pooling and fewer segmenting reforms. Original survey data and a qualitative case study provide support for the proposed mechanisms. The results imply that when risk falls on the wealthy, social insurance---although solidaristic with high-risk citizens---may produce regressive effects.
+Social insurance that pools risk across society typically redistributes downward and generates opposition from the rich. I argue this logic flips for social risks that positively correlate with wealth. I study home insurance under worsening climate risk, which falls---in some US states---disproportionately on wealthier areas. I classify a new dataset of all property insurance reform bills introduced in state legislatures in the last decade, distinguishing between bills that pool versus segment risk. Panel and factorial difference-in-differences designs show that legislators representing high-risk districts are more likely to support pooling bills. Risk incidence, in turn, predicts reform enactment: pooling reforms are more likely to be enacted, and segmenting reforms less likely, in states where risk and housing wealth are positively correlated. Original survey data and a qualitative case study provide support for the proposed mechanisms. These findings suggest that governments provide affordability-protecting risk-pooling more often when affluent citizens stand to benefit, with potentially regressive consequences.
 :::
 </details>
 
