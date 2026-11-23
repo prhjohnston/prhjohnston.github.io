@@ -56,7 +56,7 @@ Social insurance that pools risk across society typically redistributes downward
 :::
 
 
-**Ethnicity and Climate Attitudes in Africa** [*(with [Devin Caughey](https://devincaughey.github.io/){target="_blank" rel="noopener"} and [Evan Lieberman](https://evanlieb.mit.edu/){target="_blank" rel="noopener"})*]{.coauthors}. Under review. 
+**Ethnicity and Climate Attitudes in Africa** [*(with [Devin Caughey](https://devincaughey.github.io/){target="_blank" rel="noopener"} and [Evan Lieberman](https://evanlieb.mit.edu/){target="_blank" rel="noopener"})*]{.coauthors}.
 
 ::: {.paper-actions}
 <details>
@@ -74,7 +74,8 @@ Africa is the world region most vulnerable to climate change, but climate opinio
 </details>
 :::
 
-**Voters Uncovered: Home Insurance and the Electoral Effects of Climate Costs**\* Conditionally accepted at the *Journal of Political Institutions and Political Economy*.
+## Publications 
+**Voters Uncovered: Home Insurance and the Electoral Effects of Climate Costs**\* *Journal of Political Institutions and Political Economy* (2026).
 
 ::: {.paper-actions}
 <details>
@@ -87,7 +88,14 @@ How do voters react to the financial costs of climate change? I study this quest
 </details>
 
 <details>
-<summary> Draft </summary>
+<summary> DOI </summary>
+:::{.body}
+[https://doi.org/10.1108/JPIPE-07-2026-0006](https://doi.org/10.1108/JPIPE-07-2026-0006)
+:::
+</details>
+
+<details>
+<summary> PDF </summary>
 :::{.body}
 [Available here](https://www.dropbox.com/scl/fi/czh0j0ljd8w6juy2djwl6/Johnston_Voters_Uncovered.pdf?rlkey=z8td2gu1hzjcqoln6oxw70l5e&st=zcl3t01d&dl=0)
 :::
